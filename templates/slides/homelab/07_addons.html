@@ -7,12 +7,9 @@
     <h2>EXTENSIONS AND ADD-ONS</h2>
     <div class="three-col" style="margin-top:20px;">
       <div class="box">
-        <h3>Storage</h3>
+        <h3>Storage &amp; Backups</h3>
         <p style="line-height:1.6;">Add a NAS for external storage, or use the server's internal RAID controller.</p>
-      </div>
-      <div class="box">
-        <h3>Backups</h3>
-        <p style="line-height:1.6;"><span class="hl-red">RAID is not a backup.</span> Follow 3-2-1:</p>
+        <p style="margin-top:6px; line-height:1.6;"><span class="hl-red">RAID is not a backup.</span> Follow 3-2-1:</p>
         <ul style="margin-top:4px;">
           <li>3 copies</li>
           <li>2 media types</li>
@@ -24,6 +21,14 @@
         <h3>UPS</h3>
         <p style="line-height:1.6;">Power can go out at any moment. A UPS (battery backup) keeps the server up long enough to shut down non-essential VMs safely and keep essential ones running.</p>
         <p style="margin-top:6px; line-height:1.6;"><span class="hl-green">Me:</span> Proxmox start/shutdown order decides what goes down first.</p>
+      </div>
+      <div class="box">
+        <h3>Isolated Watchdog</h3>
+        <p style="line-height:1.6;">A tiny, separate machine (like a Raspberry Pi) that lives outside the main server.</p>
+        <ul style="margin-top:4px;">
+          <li><span class="hl-amber">Monitoring</span> - still alerts you when the server is down</li>
+          <li><span class="hl-amber">Backup tunnel</span> - ships backups offsite over a VPN</li>
+        </ul>
       </div>
     </div>
   </div>
