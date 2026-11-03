@@ -1,0 +1,31 @@
+<div class="slide" id="slide-download">
+  <div class="slide-header">
+    <span class="tag">BEFORE WE START</span>
+    <img src="static/HacKSU.png" alt="Logo" style="height:22px; vertical-align:middle; opacity:0.92;">
+  </div>
+  <div class="slide-body">
+    <h2>START YOUR DOWNLOAD NOW</h2>
+    <p style="margin-top:8px; line-height:1.6;">To run AI locally you need two things: a <span class="hl-green">harness</span> (the app that runs the model) and the <span class="hl-green">model</span> itself (~1 GB). Start both now so they're ready for the second half. Pick <span class="hl-amber">one</span> harness.</p>
+    <div class="two-col" style="margin-top:20px;">
+      <div class="box">
+        <h3>Ollama <span class="hl-dim">- terminal, Mac or Windows</span></h3>
+        <div style="display:flex; flex-direction:column; gap:6px; font-size:0.85em; line-height:1.5;">
+          <div><span class="hl-green">1.</span> Install the harness from <span class="hl-green">ollama.com/download</span></div>
+          <div><span class="hl-green">2.</span> Open Ollama and leave it running</div>
+          <div><span class="hl-green">3.</span> Get the model: in Terminal (Mac) or PowerShell (Windows), run</div>
+        </div>
+        <pre style="flex:none; margin-top:8px;"><code class="language-bash">ollama pull qwen2.5:1.5b</code></pre>
+        <p class="hl-dim" style="margin-top:6px;">Needs macOS 14+ or Windows 10 22H2+</p>
+      </div>
+      <div class="box">
+        <h3>LM Studio <span class="hl-dim">- chat window</span></h3>
+        <div style="display:flex; flex-direction:column; gap:6px; font-size:0.85em; line-height:1.5;">
+          <div><span class="hl-green">1.</span> Install the harness from <span class="hl-green">lmstudio.ai/download</span></div>
+          <div><span class="hl-green">2.</span> Open LM Studio and go to <span class="hl-amber">Discover</span></div>
+          <div><span class="hl-green">3.</span> Get the model: search <span class="hl-amber">Qwen2.5-1.5B-Instruct</span>, download the <span class="hl-amber">GGUF Q4_K_M</span> variant</div>
+        </div>
+        <p class="hl-dim" style="margin-top:6px;">Needs an Apple Silicon Mac (macOS 14+) or an x64 PC with AVX2. Intel Mac? Use Ollama.</p>
+      </div>
+    </div>
+  </div>
+</div>
